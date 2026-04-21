@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Şirket Adı | Profesyonel Çözümler</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Navigasyon -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <span class="text-2xl font-bold text-blue-600 tracking-tight">ŞİRKET LOGO</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#" class="hover:text-blue-600 px-3 py-2 font-medium">Anasayfa</a>
+                        <a href="#hizmetler" class="text-gray-600 hover:text-blue-600 px-3 py-2 font-medium">Hizmetler</a>
+                        <a href="#hakkimizda" class="text-gray-600 hover:text-blue-600 px-3 py-2 font-medium">Hakkımızda</a>
+                        <a href="#iletisim" class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 transition">İletişim</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Giriş) -->
+    <section class="relative bg-white py-20 lg:py-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2">
+                <h1 class="text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
+                    Geleceği <span class="text-blue-600">Teknoloji</span> İle İnşa Ediyoruz
+                </h1>
+                <p class="text-lg text-gray-600 mb-8 max-w-lg">
+                    Şirketiniz için en modern ve güvenilir çözümleri sunuyoruz. Profesyonel ekibimizle işinizi büyütmeye hazırız.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#hizmetler" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">Başlayın</a>
+                    <a href="#hakkimizda" class="bg-gray-100 text-gray-800 px-8 py-4 rounded-xl font-bold hover:bg-gray-200 transition">Daha Fazla Bilgi</a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 mt-12 lg:mt-0 relative">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Kurumsal Görsel" class="rounded-3xl shadow-2xl">
+            </div>
+        </div>
+    </section>
+
+    <!-- Hizmetler -->
+    <section id="hizmetler" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Hizmetlerimiz</h2>
+            <p class="text-gray-600 mb-16 max-w-2xl mx-auto">Sizin için neler yapabileceğimizi keşfedin. Her alanda uzmanlaşmış kadromuzla yanınızdayız.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Hizmet 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 text-left">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Stratejik Planlama</h3>
+                    <p class="text-gray-600">İş süreçlerinizi optimize ediyor ve büyüme hedeflerinize ulaşmanız için yol haritası çiziyoruz.</p>
+                </div>
+                <!-- Hizmet 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 text-left">
+                    <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-code text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Yazılım Geliştirme</h3>
+                    <p class="text-gray-600">İhtiyacınıza özel web ve mobil uygulamalar geliştirerek dijital dünyada öne geçmenizi sağlıyoruz.</p>
+                </div>
+                <!-- Hizmet 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-gray-100 text-left">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-shield-alt text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Siber Güvenlik</h3>
+                    <p class="text-gray-600">Verilerinizi ve altyapınızı modern güvenlik protokolleri ile en üst düzeyde koruyoruz.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim Formu -->
+    <section id="iletisim" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-blue-600 rounded-3xl p-8 lg:p-16 flex flex-col lg:flex-row gap-12 items-center shadow-2xl">
+                <div class="lg:w-1/2 text-white">
+                    <h2 class="text-4xl font-bold mb-6">Bizimle İletişime Geçin</h2>
+                    <p class="text-blue-100 mb-8">Sorularınız için bize ulaşmaktan çekinmeyin. Ekibimiz en kısa sürede size geri dönüş yapacaktır.</p>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@sirketiniz.com</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-phone"></i>
+                            <span>+90 (212) 123 45 67</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full">
+                    <form action="https://formspree.io/f/KULLANICI_ID_BURAYA" method="POST" class="bg-white p-8 rounded-2xl space-y-4">
+                        <input type="text" name="name" placeholder="Adınız" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-600 transition" required>
+                        <input type="email" name="email" placeholder="E-posta Adresiniz" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-600 transition" required>
+                        <textarea name="message" rows="4" placeholder="Mesajınız" class="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-600 transition" required></textarea>
+                        <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-gray-400">&copy; 2024 Şirket Adı. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
